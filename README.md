@@ -19,4 +19,6 @@ Here are some of my frequently used functions
 + [col_order](My_Python_scripts/col_order.py)
 + [filter dataframe columns](My_Python_scripts/filter_df_col.py)
 + [subset_df](My_Python_scripts/subset_df.py)
++ [df_take_percentage_by_col](My_Python_scripts/df_take_percentage_by_col.py)
+
 
