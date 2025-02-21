@@ -35,6 +35,19 @@ print(c)
 # {3, 4, 5, 6, 'a'}
 
 
+def get_shared_uniq_elements(list_1, list_2):
+    shared_set = set(list_1).intersection(list_2)
+    list_1_uniq = []
+    for e1 in list_1:
+        if e1 not in shared_set:
+            list_1_uniq.append(e1)
+    list_2_uniq = []
+    for e2 in list_2:
+        if e2 not in shared_set:
+            list_2_uniq.append(e2)
+    return shared_set, list_1_uniq, list_2_uniq
+
+
 #################### enumerate ####################
 
 for i, j in enumerate(['a', 'b', 'c', 'd']):
