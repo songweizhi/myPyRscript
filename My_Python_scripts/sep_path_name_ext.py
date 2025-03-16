@@ -7,8 +7,9 @@ def sep_path_basename_ext(file_in):
     if f_path == '':
         f_path = '.'
     f_base, f_ext = os.path.splitext(f_name)
+    f_ext = f_ext[1:]
 
-    return f_name, f_path, f_base, f_ext[1:]
+    return f_name, f_path, f_base, f_ext
 
 
 file_demo = '/Users/weizhisong/Softwares/artemis/act.txt'
